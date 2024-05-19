@@ -1,0 +1,61 @@
+
+#root {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 15px;
+}
+body{
+  width: 100%;
+}
+
+.hero-section{
+  background: url('./assets/bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+  width: 100%;
+  margin: 0;
+}
+
+.backdrop{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.wp-icon{
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 9999;
+  display: flex;
+  background-color: #25d366;
+  padding: 7px;
+  width: 8rem;
+  justify-content: space-evenly;
+  border-radius: 20rem;
+}
+
+.wp-icon img{
+  height: 1.5rem;
+  width: 1.5rem;
+  filter: invert();
+}
+
+
+.mark{
+  color: #fcbc45;
+}
+
+.mark-bg{
+  background-color: #fcbc45;
+}
+
+.apple-system-font{
+  color: #7A7A7A;
+}

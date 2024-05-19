@@ -1,0 +1,80 @@
+.triangle-1 {
+  width: 60px;
+  height: 60px;
+  border-bottom: solid 30px #c81e32;
+  border-left: solid 30px #c81e32;
+  border-right: solid 30px transparent;
+  border-top: solid 30px transparent;
+}
+
+
+.right-acc-img-wr{
+  background: linear-gradient(223deg, #f9f9f9 30%, #ffffff 30%, #fefefe 71%, #f9f9f9 71%);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  flex-basis: 480px;
+}
+
+
+.acc-img{
+  width: 368px;
+  aspect-ratio: auto 368 / 258;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.bg-triangle{
+  height : 492px;
+  width : 440px;
+}
+
+
+
+.text-23px{
+  font-size: 23px;
+}
+
+.author{
+  color: #252425;
+}
+
+.home-third-section .heading h2{
+  font-size: 2rem;
+}
+
+.home-third-section .services-card{
+  width: 440px;
+  height: 248px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.backdrop-4{
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  bottom: 10;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.home-fourth-section .bg{
+  background: url('src/assets/bgsec4.webp');
+  background-position: 0 -9rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100vw;
+  margin: 0;
+  z-index: -1;
+}
+
+.home-fourth-section .industry-support-card-wr {
+  height: 470px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
