@@ -18,7 +18,7 @@ export default function Navbar() {
             </div>
             <div className="navbar">    
                 <div className="logo">
-                    <img src="src/assets/logo.jpeg" className='w-16 h-16' alt="" />
+                    <img src="../../assets/logo.jpeg" className='w-16 h-16' alt="" />
                 </div>
                 <ul className='nav-links'>
                     <li>Home</li>
