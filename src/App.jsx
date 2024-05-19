@@ -16,7 +16,7 @@ function App() {
       </div>
       
       <div className="wp-icon">
-        <img src="public/assets/wp.png" alt="not found" />
+        <img src="assets/wp.png" alt="not found" />
         <span>WhatsApp</span>
       </div>
     </>

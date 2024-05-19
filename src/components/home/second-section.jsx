@@ -37,8 +37,8 @@ export default function HomeSecond() {
                     </div>
                 </div>
                 <div className="right-acc-img-wr bg-triangle flex flex-col">
-                    <img src="public/assets/building.webp" className='w-full relative -z-0 building-img' alt="" />
-                    <img src="public/assets/accounting.png" className='w-full relative z-10 -top-24 left-8 acc-img' alt="" />
+                    <img src="assets/building.webp" className='w-full relative -z-0 building-img' alt="" />
+                    <img src="assets/accounting.png" className='w-full relative z-10 -top-24 left-8 acc-img' alt="" />
                 </div>
             </div>
         </section>

@@ -16,7 +16,7 @@ export default function HomeFour() {
                     <div className="industry-support-card-wr flex flex-row p-5 pt-4 justify-between rounded-md bg-white">
                         <div className="card h-full w-96 p-4">
                             <div className="i-image">
-                                <img src="public/assets/i1.webp" className='rounded-md' alt="" />
+                                <img src="assets/i1.webp" className='rounded-md' alt="" />
                             </div>
                             <div className="body mt-5">
                                 <div className="tit">
@@ -33,7 +33,7 @@ export default function HomeFour() {
 
                         <div className="card h-full w-96 p-4">
                             <div className="i-image">
-                                <img src="public/assets/i2.webp" className='rounded-md' alt="" />
+                                <img src="assets/i2.webp" className='rounded-md' alt="" />
                             </div>
                             <div className="body mt-5">
                                 <div className="tit">
@@ -50,7 +50,7 @@ export default function HomeFour() {
                         
                         <div className="card h-full w-96 p-4">
                             <div className="i-image">
-                                <img src="public/assets/i3.webp" className='rounded-md' alt="" />
+                                <img src="assets/i3.webp" className='rounded-md' alt="" />
                             </div>
                             <div className="body mt-5">
                                 <div className="tit">
