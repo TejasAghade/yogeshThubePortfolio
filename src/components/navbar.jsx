@@ -16,6 +16,7 @@ export default function Navbar() {
                     <button className='call-us-btn'>Call Us</button>
                 </div>
             </div>
+            
             <div className="navbar">    
                 <div className="logo">
                     <img src="public/assets/logo.jpeg" className='w-16 h-16' alt="" />
