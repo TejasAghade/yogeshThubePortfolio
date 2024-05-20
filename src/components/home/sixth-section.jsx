@@ -12,7 +12,7 @@ export default function HomeSix() {
                             <p className='text-white text-3xl font-medium'>Contact us to optimize your financial needs.</p>
                         </div>
                         <div className="heading mt-6">
-                            <p className='font-light text-white text-base text-center'>Regardless of the industry you belong to, CA R. S. Shah and Co. is dedicated to providing industry-specific financial solutions.</p>
+                            <p className='font-light text-white text-base text-center'>Regardless of the industry you belong to, CA Yogesh Thube and Co. is dedicated to providing industry-specific financial solutions.</p>
                         </div>
                         <div className="mt-4">
                             <button className='uppercase mt-8 mark-bg p-3 w-40 outline-none border-none hover:bg-gray-400 tracking-wide hover:text-white'>Contact Us</button>
