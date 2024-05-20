@@ -62,7 +62,7 @@
 }
 
 .home-fourth-section .bg{
-  background: url('assets/bgsec4.webp');
+  background: url('../../assets/bgsec4.webp');
   background-position: 0 -9rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@
 
 
 .home-section-six .bg{
-  background: url('assets/bg3.webp');
+  background: url('../../assets/bg3.webp');
   background-repeat: no-repeat;
   background-size: auto;
   height: 70vh;
