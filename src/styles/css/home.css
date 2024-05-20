@@ -32,8 +32,6 @@
   width : 440px;
 }
 
-
-
 .text-23px{
   font-size: 23px;
 }
@@ -42,7 +40,7 @@
   color: #252425;
 }
 
-.home-third-section .heading h2{
+.home-third-section .heading h2, .home-section-five .heading h2{
   font-size: 2rem;
 }
 
@@ -60,11 +58,11 @@
   z-index: 2;
   bottom: 10;
   background-color: #000000;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .home-fourth-section .bg{
-  background: url('src/assets/bgsec4.webp');
+  background: url('assets/bgsec4.webp');
   background-position: 0 -9rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,6 +73,21 @@
 }
 
 .home-fourth-section .industry-support-card-wr {
+  height: 470px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.home-section-six .bg{
+  background: url('assets/bg3.webp');
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 70vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.home-section-six .industry-support-card-wr {
   height: 470px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
