@@ -40,7 +40,7 @@ export default function HomeFour() {
                                     <p className='font-medium text-lg'>Startup and Entrepreneurial</p>
                                 </div>
                                 <div className="desc mt-4">
-                                    <p className='apple-system-font font-light'>As a startup or entrepreneurial venture, you face unique financial challenges on your path to success. At Yogesh Thube and Co</p>
+                                    <p className='apple-system-font font-light'>As a startup or entrepreneurial venture, you face unique financial challenges on your path to success. At CA Yogesh Thube and Co</p>
                                 </div>
                                 <div className='mt-6'>
                                     <a href='#' className='mark font-medium'>READ MORE</a>
@@ -57,7 +57,7 @@ export default function HomeFour() {
                                     <p className='font-medium text-lg'>Non-Profit Organizations</p>
                                 </div>
                                 <div className="desc mt-4">
-                                    <p className='apple-system-font font-light'>Non-profit organizations play a crucial role in driving positive change in society. At Yogesh Thube and Co.</p>
+                                    <p className='apple-system-font font-light'>Non-profit organizations play a crucial role in driving positive change in society. At CA Yogesh Thube and Co.</p>
                                 </div>
                                 <div className='mt-6'>
                                     <a href='#' className='mark font-medium'>READ MORE</a>
