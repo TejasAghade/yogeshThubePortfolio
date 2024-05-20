@@ -14,7 +14,6 @@ function App() {
         <HomeThird/>
         <HomeFour/>
       </div>
-      
       <div className="wp-icon">
         <img src="assets/wp.png" alt="not found" />
         <span>WhatsApp</span>
