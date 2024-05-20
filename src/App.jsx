@@ -20,7 +20,6 @@ function App() {
         <HomeSix/>
         <Footer/>
       </div>
-      
       <div className="wp-icon">
         <img src="assets/wp.png" alt="not found" />
         <span className='text-white'>WhatsApp</span>
