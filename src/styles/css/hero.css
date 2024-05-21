@@ -7,6 +7,16 @@
     z-index: 3;
 }
 
+.hero-section{
+    background: url('../../assets/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
 .hero-section .heading .text{
     width: 60%;
     display: flex;

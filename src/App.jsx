@@ -18,7 +18,7 @@ function App() {
         <HomeFour/>
         <HomeFive/>
         <HomeSix/>
-        <Footer/>
+
       </div>
       <div className="wp-icon">
         <img src="assets/wp.png" alt="not found" />

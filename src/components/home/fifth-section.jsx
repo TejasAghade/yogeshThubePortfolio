@@ -35,7 +35,7 @@ export default function HomeFive() {
                 }
               </div>
               <div className="view-more flex justify-center items-center mt-4">
-                <button className='uppercase mark-bg outline-none border-none hover:bg-gray-400 tracking-wide hover:text-white'>View More TESTIMONIALS</button>
+                <button className='uppercase mark-bg text-base outline-none border-none hover:bg-gray-400 tracking-wide hover:text-white'>View More TESTIMONIALS</button>
               </div>
             </div>
         </section>

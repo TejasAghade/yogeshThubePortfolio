@@ -1,0 +1,18 @@
+.about .header{
+    background: url('../../assets/i3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -16rem;
+    height: 70vh;
+}
+
+
+.backdrop-f{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background-color: #000000;
+    opacity: 0.8;
+}
