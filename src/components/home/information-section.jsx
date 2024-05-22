@@ -15,16 +15,16 @@ export default function InformationSection() {
                         <p>Established with a commitment to delivering comprehensive financial solutions, we are a team of seasoned Chartered Accountants dedicated to helping businesses and individuals navigate the complex landscape of accounting, taxation, and financial planning.</p>
                     </div>
                     <div className="services w-full mt-4 flex justify-center text-base apple-system-font font-light">
-                        <div className="wrapper flex flex-row gap-14 pl-8 pr-8">
-                            <div className="left ">
-                                <ul className='list-disc'>
+                        <div className="wrapper flex flex-row gap-10 pl-8 pr-8">
+                            <div className="left">
+                                <ul className='list-disc list-inside'>
                                     <li>Accounting and Bookkeeping</li>
                                     <li>Auditing and Assurance</li>
                                     <li>Taxation</li>
                                 </ul>
                             </div>
                             <div className="right">
-                                <ul className='list-disc'>
+                                <ul className='list-disc list-inside'>
                                     <li>Financial Consulting</li>
                                     <li>Financial Advisory</li>
                                     <li>Company Formation</li>

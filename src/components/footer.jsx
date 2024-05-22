@@ -8,24 +8,28 @@ export default function Footer() {
             <div className="w-4/5 h-34">
                 <div className="contacts mt-20">
                     <div className="top flex flex-row justify-between">
-                        <div className="phone flex flex-row justify-start items-center gap-4 w-80 h-16">
-                            <div className="img">
-                                <img src="assets/phon2.webp" className='w-7' alt="" />
+                        <a href="tel:+917020408061">
+                            <div className="phone flex flex-row justify-start items-center gap-4 w-80 h-16">
+                                <div className="img">
+                                    <img src="assets/phon2.webp" className='w-7' alt="" />
+                                </div>
+                                <div className="texts flex flex-col">
+                                <span className='mark font-medium text-sm'>Give us a call</span>
+                                <span className='font-light text-base text-white'>+ 91 98903 81234</span>
+                                </div>
                             </div>
-                            <div className="texts flex flex-col">
-                            <span className='mark font-medium text-sm'>Give us a call</span>
-                            <span className='font-light text-base text-white'>+ 91 98903 81234</span>
+                        </a>
+                        <a href="mailto:cayogeshthube@gmail.com">
+                            <div className="mail flex flex-row justify-start items-center gap-4 w-80 h-16">
+                                <div className="img">
+                                    <img src="assets/mail.webp" className='w-7' alt="" />
+                                </div>
+                                <div className="texts flex flex-col">
+                                <span className='mark font-medium text-sm'>Send us a message</span>
+                                <span className='font-light text-base text-white'>cayogeshthube@gmail.com</span>
+                                </div>
                             </div>
-                        </div>
-                        <div className="mail flex flex-row justify-start items-center gap-4 w-80 h-16">
-                            <div className="img">
-                                <img src="assets/mail.webp" className='w-7' alt="" />
-                            </div>
-                            <div className="texts flex flex-col">
-                            <span className='mark font-medium text-sm'>Send us a message</span>
-                            <span className='font-light text-base text-white'>+ 91 98903 81234</span>
-                            </div>
-                        </div>
+                        </a>
 
                         <div className="location flex flex-row justify-start items-center gap-4 w-80 h-16">
                             <div className="img">

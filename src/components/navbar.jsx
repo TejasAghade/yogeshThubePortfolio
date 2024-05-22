@@ -12,8 +12,8 @@ export default function Navbar() {
                 <div className="mobile">
                     <span>+91 7020408061</span>
                 </div>
-                <div className="btn">
-                    <button className='call-us-btn'>Call Us</button>
+                <div className="btn h-12 w-32 flex justify-center items-center">
+                    <a href="tel:+917020408061" className='mark-bg p-0 flex justify-center items-center h-12 w-32 text-black font-medium text-center hover:text-white'>Call Us</a>
                 </div>
             </div>
 
