@@ -7,9 +7,9 @@ export default function About() {
   return (
     <>
       <section className='about w-full'>
-        <div className="navbar text-white">
+        {/* <div className="navbar text-white">
           <Navbar/>
-        </div>
+        </div> */}
         <div className="header text-white flex justify-center items-center">
             <h2 className='z-10 text-4xl font-medium mt-40'>About Us</h2>
         </div>

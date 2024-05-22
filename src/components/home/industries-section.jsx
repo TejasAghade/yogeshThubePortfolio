@@ -1,7 +1,7 @@
 import React from 'react'
 import servicesData from '../../data/services.data';
 
-export default function HomeFour() {
+export default function IndustriesSection() {
   return (
     <>
         <section className="home-fourth-section flex flex-col justify-center items-center mt-28 p-4">
@@ -10,7 +10,7 @@ export default function HomeFour() {
                     <div className="heading flex flex-col justify-center items-center mb-12">
                         <div className="mark text-lg font-medium">Yogesh Thube & Co</div>
                         <div className="heading mt-6">
-                            <p className='font-medium text-white text-3xl'>Industries We Support</p>
+                            <p className='font-medium text-white text-3xl h-12'>Industries We Support</p>
                         </div>
                     </div>
                     <div className="industry-support-card-wr flex flex-row p-5 pt-4 justify-between rounded-md bg-white">

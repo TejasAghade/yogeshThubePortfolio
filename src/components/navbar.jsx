@@ -4,7 +4,7 @@ import '../styles/css/navbar.css';
 export default function Navbar() {
   return (
     <>
-        <div className="navbar-section flex flex-col invisible lg:visible">
+        <div className="navbar-section flex flex-col invisible lg:visible z-max">
             <div className="contact-details flex flex-row items-center justify-end gap-4 w-4/5 mb-5">
                 <div className="phone-img">
                     <img src="assets/phone.png" className='w-7' alt="" />
@@ -19,12 +19,12 @@ export default function Navbar() {
 
             <div className="navbar">    
                 <div className="logo">
-                    <img src="assets/logo.jpeg" className='w-16 h-16' alt="" />
+                    <img src="assets/logo.jpeg" className='w-16' alt="" />
                 </div>
                 <ul className='nav-links '>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Services</li>
+                    <li><a href="/" className='cursor-pointer text-white font-normal hover:text-white'>Home</a></li>
+                    <li><a href="about-us" className='cursor-pointer text-white font-normal hover:text-white'>About Us</a></li>
+                    <li><a href="services" className='cursor-pointer text-white font-normal hover:text-white'>Services</a></li>
                     <li>Blog</li>
                     <li>Careers</li>
                     <li>Contact Us</li>

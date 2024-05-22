@@ -9,7 +9,7 @@ export default function HomeSix() {
                 <div className="main-content w-4/5 flex justify-center absolute z-30 mt-20">
                     <div className="heading flex flex-col justify-center w-3/5 items-center mb-12">
                         <div className=" ">
-                            <p className='text-white text-3xl font-medium'>Contact us to optimize your financial needs.</p>
+                            <p className='text-white text-3xl h-12 font-medium'>Contact us to optimize your financial needs.</p>
                         </div>
                         <div className="heading mt-6">
                             <p className='font-light text-white text-base text-center'>Regardless of the industry you belong to, CA Yogesh Thube and Co. is dedicated to providing industry-specific financial solutions.</p>

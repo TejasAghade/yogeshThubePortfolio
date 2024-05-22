@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/css/home.css';
 
-export default function HomeSecond() {
+export default function InformationSection() {
   return (
     <>  
         <section className="mt-32 second-section flex flex-row justify-center items-center">
@@ -11,10 +11,10 @@ export default function HomeSecond() {
                     <div className="heading">
                         <p className='text-23px font-medium'>Welcome to Yogesh Thube & Co., your trusted partner in financial excellence</p>
                     </div>
-                    <div className="info text-base apple-system-font font-extralight">
+                    <div className="info text-base apple-system-font font-light">
                         <p>Established with a commitment to delivering comprehensive financial solutions, we are a team of seasoned Chartered Accountants dedicated to helping businesses and individuals navigate the complex landscape of accounting, taxation, and financial planning.</p>
                     </div>
-                    <div className="services w-full mt-4 flex justify-center text-base apple-system-font font-extralight">
+                    <div className="services w-full mt-4 flex justify-center text-base apple-system-font font-light">
                         <div className="wrapper flex flex-row gap-14 pl-8 pr-8">
                             <div className="left ">
                                 <ul className='list-disc'>

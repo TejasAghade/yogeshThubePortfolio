@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
+  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -69,6 +69,10 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.z-max{
+  z-index: 99999999;
 }
 
 @media (prefers-color-scheme: light) {

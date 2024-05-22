@@ -1,0 +1,53 @@
+.service .header{
+    background: url('../../assets/i3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -16rem;
+    height: 35rem;
+}
+
+.backdrop-f{
+    height: 35rem;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+    .service .header{
+        background: url('../../assets/i3.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: -11rem 0rem; */
+        height: 35rem;
+    }
+
+    
+    .backdrop-f{
+        height: 35rem;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        background-color: #000000;
+        opacity: 0.8;
+    }
+}
