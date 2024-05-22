@@ -4,7 +4,7 @@ import '../styles/css/navbar.css';
 export default function Navbar() {
   return (
     <>
-        <div className="navbar-section flex flex-col">
+        <div className="navbar-section flex flex-col invisible lg:visible">
             <div className="contact-details flex flex-row items-center justify-end gap-4 w-4/5 mb-5">
                 <div className="phone-img">
                     <img src="assets/phone.png" className='w-7' alt="" />

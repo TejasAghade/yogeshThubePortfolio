@@ -26,6 +26,8 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    <Footer/>
+    <div className="footer-d invisible lg:visible">
+      <Footer/>
+    </div>
   </React.StrictMode>,
 )

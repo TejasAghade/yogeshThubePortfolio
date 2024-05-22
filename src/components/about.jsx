@@ -6,14 +6,16 @@ import '../styles/css/about.css';
 export default function About() {
   return (
     <>
-      <section className='about'>
-        <div className="navbar text-white"><Navbar/></div>
+      <section className='about w-full'>
+        <div className="navbar text-white">
+          <Navbar/>
+        </div>
         <div className="header text-white flex justify-center items-center">
             <h2 className='z-10 text-4xl font-medium mt-40'>About Us</h2>
         </div>
 
-        <div className="main flex justify-center items-center mt-20 apple-system-font">
-          <div className="wrapper w-4/5">
+        <div className="main flex justify-center w-full items-center mt-20 apple-system-font p-16">
+          <div className="wrapper md:w-4/5">
             <div className="desc">
               <p className='font-normal'>We are a leading Chartered Accountancy (CA) firm providing a comprehensive range of professional services in the field of accounting, auditing, taxation, and financial consulting.
                 <br/><br/> With a highly skilled and experienced team, we strive to deliver exceptional services and build long-term relationships with our clients. Our firm is committed to upholding the highest standards of professionalism, integrity, and ethical conduct.</p>
@@ -33,8 +35,8 @@ export default function About() {
               <div className="heading">
                 <h2 className="text-3xl font-semibold" style={{fontSize : '2rem'}}>Our Team Leads</h2>
               </div>
-              <div className="flex flex-row mt-16">
-                  <div className="one w-1/2 p-4">
+              <div className="flex flex-col md:flex-row mt-16">
+                  <div className="one w-full md:w-1/2  p-4">
                       <div className="profile flex flex-col items-center">
                         <div className="w-72 h-72 rounded-full overflow-hidden flex justify-center items-center">
                           <img src="assets/profile.jpeg" className='' alt="" />
@@ -47,7 +49,7 @@ export default function About() {
                         </div>
                       </div>
                   </div>
-                  <div className="two w-1/2 p-4">
+                  <div className="two w-full md:w-1/2 p-4">
                     <div className="profile flex flex-col items-center">
                         <div className="w-72 h-72 rounded-full overflow-hidden flex justify-center items-center">
                           <img src="assets/profile.jpeg" className='' alt="" />
