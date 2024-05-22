@@ -21,7 +21,7 @@ export default function Navbar() {
                 <div className="logo">
                     <img src="assets/logo.jpeg" className='w-16 h-16' alt="" />
                 </div>
-                <ul className='nav-links'>
+                <ul className='nav-links '>
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Services</li>

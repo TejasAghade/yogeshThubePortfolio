@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="hero-section text-white top-section">     
             <Navbar/>
             <div className="heading">
-                <div className="text">
+                <div className="text mt-72">
                     <h4>A Leading Provider Of Comprehensive <span className="mark">Accountancy</span> & Financial Solution </h4>
                     <p>Your trusted partner for financial excellence</p>
                 </div>
