@@ -1045,7 +1045,8 @@ button:focus-visible {
 }
 
 .z-max{
-  z-index: 99999999;
+  position: inherit;
+  z-index: 9999!important;
 }
 
 @media (prefers-color-scheme: light) {

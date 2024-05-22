@@ -30,7 +30,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className="navbar text-white">
+    <div className="navbar text-white z-max">
       <Navbar/>
     </div>
     <RouterProvider router={router} />
